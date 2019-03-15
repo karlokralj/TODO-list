@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(237, 238, 239);
+    text-align: center;
+}
+
+header{
+    background-color: rgb(189, 191, 193);
+    margin: 0% 0% 2% 0%;
+}
+
+h1 {
+    padding: 2% 2%;
+}
+
+.addButton{
+    background-color: rgb(189, 191, 193);
+    padding:15px;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250); 
+}
+
+#myInput{
+    padding: 15px;
+    width: 75%;
+}
+
+
+/* styles found on google */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+  .xButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .xButton:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
